@@ -1,7 +1,7 @@
 import { Content } from './content';
 
-describe('NOtification content', () => {
-  it('should be ale to create a notification content', () => {
+describe('Notification content', () => {
+  it('should be able to create a notification content', () => {
     const content = new Content('Você recebeu uma solicitação de amizade');
 
     expect(content).toBeTruthy();
